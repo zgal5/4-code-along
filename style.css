@@ -1,0 +1,15 @@
+/*this css written by Zsazsa Hall*/
+
+/* Global Styles (mobile first) */
+
+body {
+    display:grid;
+    grid-template-columns: 1fr;
+    background-color: green;
+}
+@media screen and (min-width: 600px) {
+    body {
+        
+        grid-template-columns: 1fr 1fr ;
+        background-color: blue;
+    }
